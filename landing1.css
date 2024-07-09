@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:"Alike Angular", serif;
+    font-weight:500;
+    font-size:large;
+    
+}
+
+.hero img{
+    height :200px;
+    width:200px;
+    margin-bottom: 20px; 
+    padding:0 30px;  
+    margin-right: 40px;
+    margin-top: -50px;
+
+
+}
+.first{
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    flex:1;
+    text-align: right;
+    margin-top: -80px;
+
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+    padding-bottom: 40px;
+    margin-top: -50px;
+
+
+    
+}
+ul li a{
+    text-decoration: none;
+    color: green;
+    padding: 0 10px;
+
+}
+.icons img{
+    width:25px;
+    height: auto;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+    margin-top: -80px;
+    cursor: pointer;
+    
+}
+ul li a:hover{
+    color: rgb(32, 178, 170);
+}
+
+.board{
+    display:flex;
+    margin-top: 0%;
+
+}
+
+.left{
+      flex-basis: 50%;
+}
+.right img{
+width:250px;
+height: 250px;
+padding-bottom: 100px;
+margin-inline: 100px;
+margin-top: -100px;
+
+}
+.searchbox{
+    height: 30px;
+    width: 50px;
+    margin-top: -200px;
+    padding-left: 250px;
+    
+
+}
+p{
+    margin-top: -50px;
+    padding-left: 70px; 
+    text-align: justify;
+}
+
+span{
+
+    font-weight: bold;
+    color: hsl(122, 48%, 20%);
+}
+h1{
+    color:rgb(37, 82, 37);
+    font-size: larger;
+    font-weight: bold;
+    padding: 70px;
+    margin-top: 0px;
+    text-align: justify;
+}
+button{
+    color:white;
+    margin-left: 430px;
+    margin-top: -50px;
+    width:max-content;
+    background-color: rgb(24, 63, 24);
+    padding:4px;
+    
+    
+}
+.social{
+    background-color: rgb(109, 182, 109);
+    margin-left:50px;
+    border: 1px;
+    padding:2px;
+    margin-top:10px;
+    
+
+}
+.social img{
+    height: 16px;
+    width:16px;
+    margin:3px;
+    
+    
+    
+}
